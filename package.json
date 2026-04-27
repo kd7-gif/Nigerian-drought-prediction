@@ -1,0 +1,11 @@
+{
+  "name": "drought-platform",
+  "version": "1.0.0",
+  "description": "Nigeria Drought Forecast Intelligence Platform",
+  "scripts": {
+    "install:all":  "npm install --prefix server && npm install --prefix client",
+    "start:server": "npm start --prefix server",
+    "start:client": "npm run dev --prefix client",
+    "start:ml":     "cd ml && uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+  }
+}

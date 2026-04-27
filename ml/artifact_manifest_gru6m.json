@@ -1,0 +1,8 @@
+{
+  "model_key": "gru_6m",
+  "feature_data": "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\ml\\feature_data.parquet",
+  "feature_format": "parquet",
+  "scalers": "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\ml\\scalers.pkl",
+  "checkpoint": "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\models\\h6\\gru_h6.pth",
+  "registry": "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\ml\\artifacts\\model_registry.json"
+}

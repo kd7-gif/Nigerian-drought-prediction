@@ -1,0 +1,33 @@
+{
+  "default_model": "gru_3m",
+  "models": {
+    "gru_3m": {
+      "label": "GRU 3-month forecast",
+      "family": "gru",
+      "horizon_months": 3,
+      "checkpoint_path": "models/h3/gru_h3.pth",
+      "forecast_output_example": "forecast_with_pcode.csv"
+    },
+    "gru_6m": {
+      "label": "GRU 6-month forecast",
+      "family": "gru",
+      "horizon_months": 6,
+      "checkpoint_path": "models/h6/gru_h6.pth",
+      "forecast_output_example": "forecast_with_pcode_h6.csv"
+    },
+    "transformer_3m": {
+      "label": "Transformer 3-month forecast",
+      "family": "transformer",
+      "horizon_months": 3,
+      "checkpoint_path": "models/h3/transformer_h3.pth",
+      "forecast_output_example": "forecast_with_pcode.csv"
+    },
+    "transformer_6m": {
+      "label": "Transformer 6-month forecast",
+      "family": "transformer",
+      "horizon_months": 6,
+      "checkpoint_path": "models/h6/transformer_h6.pth",
+      "forecast_output_example": "forecast_with_pcode_h6.csv"
+    }
+  }
+}

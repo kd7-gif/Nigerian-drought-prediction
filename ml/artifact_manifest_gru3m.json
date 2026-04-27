@@ -1,0 +1,12 @@
+{
+  "feature_rows": 53983,
+  "feature_cols": 63,
+  "scalers_count": 37,
+  "feature_table_format": "parquet",
+  "saved_files": [
+    "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\ml\\feature_data.parquet",
+    "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\ml\\scalers.pkl",
+    "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\models\\h3\\gru_h3.pth",
+    "c:\\Users\\Latitude 5420\\Desktop\\DROUGHTPREDLOCAL\\drought-platform-architecture-refactor\\models\\model_registry.json"
+  ]
+}

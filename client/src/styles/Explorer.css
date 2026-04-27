@@ -1,0 +1,9 @@
+.explorer-container { padding:28px 32px; }
+.explorer-controls  { display:grid; grid-template-columns:1fr 1fr auto; gap:14px; align-items:end; margin-bottom:28px; padding:22px 24px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-lg); }
+.ctrl-group  { display:flex; flex-direction:column; gap:6px; }
+.ctrl-label  { font-size:11px; text-transform:uppercase; letter-spacing:0.07em; color:var(--text-muted); font-weight:600; }
+.ctrl-select { padding:9px 12px; border-radius:var(--radius-sm); border:1px solid var(--border); background:rgba(17,45,78,0.7); color:var(--text-primary); font-size:13px; outline:none; cursor:pointer; transition:border-color 0.2s; font-family:var(--font-body); }
+.ctrl-select:focus { border-color:var(--border-bright); }
+.explorer-results { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.explorer-full    { grid-column:1/-1; }
+
