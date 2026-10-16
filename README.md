@@ -4,8 +4,7 @@ A full-stack platform that forecasts drought conditions for all 37 Nigerian stat
 up to six months ahead, using deep learning models trained on historical climate data.
 Built as my final-year project in Software Engineering at Bowen University.
 
-<!-- dashboard screenshot here: ![Dashboard](docs/dashboard.png) -->
-
+<img width="100%" alt="Nigeria Drought Forecast Dashboard" src="https://github.com/user-attachments/assets/c3711a35-7177-4a2d-a9d5-26102d29c6c1" />
 ## Why it matters
 Drought hits Nigerian agriculture and water supply hard, and early warning gives farmers,
 planners and agencies time to act. This platform turns monthly climate data into
